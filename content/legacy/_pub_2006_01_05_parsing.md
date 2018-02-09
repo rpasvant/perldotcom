@@ -91,11 +91,11 @@ As mentioned earlier, lexing is essentially the task of analyzing data and break
 When lexed, you might get a series of tokens, such as:
 
     my @tokens = (
-      [ OP  => 'x' ],
+      [ VAR  => 'x' ],
       [ OP  => '=' ],
       [ OP  => '(' ],
       [ INT => '3' ],
-      [ VAR => '+' ],
+      [ OP => '+' ],
       [ INT => '2' ],
       [ OP  => ')' ],
       [ OP  => '/' ],
